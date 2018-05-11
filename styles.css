@@ -1,0 +1,52 @@
+/**
+TODO: 
+fix grid/flexbox layout issues
+find images for people and nature
+**/
+.img {
+  max-width: 100%;
+}
+
+container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header img {
+  align-self: start;
+}
+
+header h1 {
+  align-self: end;
+  text-align: right;
+}
+
+header {
+  width: 100%;
+  background-color: yellow;
+}
+
+.box{
+/*  max-width: 480px;*/
+}
+
+#tech {
+  max-width: 400px;
+}
+
+#design {
+  max-width: 320px;
+  width: 33.33%;
+  background-color: red;
+}
+
+#people {
+  width: 33.33%;
+  background-color: green;
+}
+
+#nature {
+  width: 33.33%;
+  background-color: orange;
+}
